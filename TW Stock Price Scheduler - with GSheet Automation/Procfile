@@ -1,0 +1,2 @@
+web: gunicorn clock:app –log-file -
+clock: python clock.py
