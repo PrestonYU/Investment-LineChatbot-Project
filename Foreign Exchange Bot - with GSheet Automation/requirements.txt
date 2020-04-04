@@ -1,0 +1,15 @@
+APScheduler==3.0.0
+gunicorn==20.0.4
+Flask==1.1.1
+line-bot-sdk==1.16.0
+bs4==0.0.1
+gspread==3.3.0
+google-auth==1.11.0               
+google-auth-oauthlib==0.4.1
+setuptools>=40.3.0
+oauth2client==4.1.3                
+oauthlib==3.1.0   
+twstock==1.3.1
+lxml==4.4.2
+twder==0.1.4
+pandas==0.25.3
