@@ -1,0 +1,2 @@
+web: gunicorn stock_scheduler:app –log-file -
+clock: python stock_scheduler.py
