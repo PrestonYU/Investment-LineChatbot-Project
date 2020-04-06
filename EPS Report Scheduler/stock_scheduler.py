@@ -25,11 +25,11 @@ app = Flask(__name__)
 
 # LINE_CHANNEL_SECRET 和 LINE_CHANNEL_ACCESS_TOKEN 類似聊天機器人的密碼，記得不要放到 repl.it 或是和他人分享
 # 從環境變數取出設定參數
-LINE_CHANNEL_ACCESS_TOKEN = os.environ.get('cDvRaHveyhzZ35GzrCrqXLRcS7VkyK7R5L2tfoJSv53+SbY9opcUj+sVrM6IM9wt1Guec921qEdx0SvRvN8eqkqVXx2E3Ba/wwIi93JZfaGmMAGhE4+P0mT1hddt32yR5QOaGEiYAz1yj0IqcdWTtAdB04t89/1O/w1cDnyilFU=')
-LINE_CHANNEL_SECRET = os.environ.get('22d67e887b429539c8f359081a50b96d')
-line_bot_api = LineBotApi('cDvRaHveyhzZ35GzrCrqXLRcS7VkyK7R5L2tfoJSv53+SbY9opcUj+sVrM6IM9wt1Guec921qEdx0SvRvN8eqkqVXx2E3Ba/wwIi93JZfaGmMAGhE4+P0mT1hddt32yR5QOaGEiYAz1yj0IqcdWTtAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('22d67e887b429539c8f359081a50b96d')
-to = "U3300261b0de23fe43e93f5f4d63ce4e0"
+LINE_CHANNEL_ACCESS_TOKEN = os.environ.get('')
+LINE_CHANNEL_SECRET = os.environ.get('')
+line_bot_api = LineBotApi('')
+handler = WebhookHandler('')
+to = ""
 
 # 此為歡迎畫面處理函式，當網址後面是 / 時由它處理
 @app.route("/", methods=['GET'])
