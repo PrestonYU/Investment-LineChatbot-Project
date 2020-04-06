@@ -22,12 +22,12 @@ sched = BlockingScheduler()
 
 # 我們使用 Google API 的範圍為 spreadsheets
 gsp_scopes = ['https://spreadsheets.google.com/feeds']
-SPREAD_SHEETS_KEY = os.environ.get('1QHX3S95UX2H9tYQh6Coaa5twI3jFND3jwXSGd10I3X0')
+SPREAD_SHEETS_KEY = os.environ.get('')
 
 # LINE Chatbot token
-LINE_CHANNEL_ACCESS_TOKEN = os.environ.get('nLyCdZ4kzatkPZUUj4ViznwnhOPxgvbShn4kKokNGjGGLBDdwjUUQv6+/OnxUVEO9rYs3Au7Fha78D3tq/tw2dX6YJvKw99dtaTYktJXvcrpBp7IVNkLtJpjzaBXmzMeiveIeTDVgRY6umdZcMzbZwdB04t89/1O/w1cDnyilFU=')
-LINE_USER_ID = os.environ.get('U3300261b0de23fe43e93f5f4d63ce4e0')
-line_bot_api = LineBotApi('nLyCdZ4kzatkPZUUj4ViznwnhOPxgvbShn4kKokNGjGGLBDdwjUUQv6+/OnxUVEO9rYs3Au7Fha78D3tq/tw2dX6YJvKw99dtaTYktJXvcrpBp7IVNkLtJpjzaBXmzMeiveIeTDVgRY6umdZcMzbZwdB04t89/1O/w1cDnyilFU=')
+LINE_CHANNEL_ACCESS_TOKEN = os.environ.get('')
+LINE_USER_ID = os.environ.get('')
+line_bot_api = LineBotApi('')
 
 # 金鑰檔案路徑
 credential_file_path = 'credentials.json'
@@ -42,7 +42,7 @@ def auth_gsp_client(file_path, scopes):
 
 gsp_client = auth_gsp_client(credential_file_path, gsp_scopes)
 # 我們透過 open_by_key 這個方法來開啟工作表一 worksheet
-worksheet = gsp_client.open_by_key('1QHX3S95UX2H9tYQh6Coaa5twI3jFND3jwXSGd10I3X0').sheet1
+worksheet = gsp_client.open_by_key('').sheet1
 
 
 def crawl_for_stock_price(sotck_no):
@@ -140,7 +140,7 @@ def get_notify():
             latest_trade_price = twstock.realtime.get(stock_no)['realtime']['latest_trade_price']
             price_rule_message = get_check_price_rule_message(stock_no, high_price, middle_price, low_price, latest_trade_price)
             line_bot_api.push_message(
-                to='U3300261b0de23fe43e93f5f4d63ce4e0',
+                to='',
                 messages=[
                     TextSendMessage(text=price_rule_message)
                 ]
