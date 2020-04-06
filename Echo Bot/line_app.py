@@ -20,10 +20,10 @@ app = Flask(__name__)
 
 # LINE_CHANNEL_SECRET 和 LINE_CHANNEL_ACCESS_TOKEN 類似聊天機器人的密碼，記得不要放到 repl.it 或是和他人分享
 # 從環境變數取出設定參數
-LINE_CHANNEL_ACCESS_TOKEN = os.environ.get('vIEMDW2+VTG81Q5Vt3i3Y70SY89OzMyyQtwqTrtP6ycFMMt5s0oA2P138w+Po9Eble1lDCC7BCRS4kXMyt+gF43ZXYZNDET8drpiiTw4yvD8mgegJjFKdd7dLsium68n8jwPcJeRcIfAa4x9vNzqlgdB04t89/1O/w1cDnyilFU=')
-LINE_CHANNEL_SECRET = os.environ.get('2a03f191746f5d8ecc6ab85e50c8b820')
-line_bot_api = LineBotApi('vIEMDW2+VTG81Q5Vt3i3Y70SY89OzMyyQtwqTrtP6ycFMMt5s0oA2P138w+Po9Eble1lDCC7BCRS4kXMyt+gF43ZXYZNDET8drpiiTw4yvD8mgegJjFKdd7dLsium68n8jwPcJeRcIfAa4x9vNzqlgdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('2a03f191746f5d8ecc6ab85e50c8b820')
+LINE_CHANNEL_ACCESS_TOKEN = os.environ.get('')
+LINE_CHANNEL_SECRET = os.environ.get('')
+line_bot_api = LineBotApi('')
+handler = WebhookHandler('')
 
 # 此為歡迎畫面處理函式，當網址後面是 / 時由它處理
 @app.route("/", methods=['GET'])
