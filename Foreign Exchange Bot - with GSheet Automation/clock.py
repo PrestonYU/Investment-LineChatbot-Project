@@ -26,15 +26,15 @@ app = Flask(__name__)
 # 我們使用 Google API 的範圍為 spreadsheets
 gss_scopes = ['https://spreadsheets.google.com/feeds']
 GOOGLE_SHEETS_CREDS_JSON = os.environ.get('GOOGLE_SHEETS_CREDS_JSON')
-SPREAD_SHEETS_KEY = '1pY205im60IQYRqXZjSyljDRQq5-jGz9lI88cTbvllWw'
+SPREAD_SHEETS_KEY = ''
 
 # LINE_CHANNEL_SECRET 和 LINE_CHANNEL_ACCESS_TOKEN 類似聊天機器人的密碼，記得不要放到 repl.it 或是和他人分享
 # 從環境變數取出設定參數
-LINE_CHANNEL_ACCESS_TOKEN = 'ryj7mDfd8ZvLCB5QrDjEgXN5l/ASdnVx7PhFzW9+GMrocbEz8TyqM8BpX5K1Dw/P9rYs3Au7Fha78D3tq/tw2dX6YJvKw99dtaTYktJXvcrXVT3R9x4yEY3YENnOYB2Lag6TuOdjBLj80o8LXuueawdB04t89/1O/w1cDnyilFU='
-LINE_CHANNEL_SECRET = 'a0fa459c0580d00f0e22c263dd254c91'
-LINE_USER_ID = 'U3300261b0de23fe43e93f5f4d63ce4e0'
-line_bot_api = LineBotApi('ryj7mDfd8ZvLCB5QrDjEgXN5l/ASdnVx7PhFzW9+GMrocbEz8TyqM8BpX5K1Dw/P9rYs3Au7Fha78D3tq/tw2dX6YJvKw99dtaTYktJXvcrXVT3R9x4yEY3YENnOYB2Lag6TuOdjBLj80o8LXuueawdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('a0fa459c0580d00f0e22c263dd254c91')
+LINE_CHANNEL_ACCESS_TOKEN =''
+LINE_CHANNEL_SECRET = ''
+LINE_USER_ID = ''
+line_bot_api = LineBotApi('')
+handler = WebhookHandler('')
 
 def get_all_currencies_rates_str():
     """取得所有幣別目前匯率字串
