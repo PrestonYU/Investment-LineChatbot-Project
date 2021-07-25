@@ -1,1 +1,6 @@
-# 1st-LineChatbot-Marathon
+# Python 證券投資分析與股票聊天機器人
+Coderbridge PyStock Analysis & Automatic LineBot 
+
+<li><strong>自動化繁瑣工作</strong>：透過 Python 自己設計小程式自動化生活重複、瑣碎的事情，省下更多複製貼上的時間，讓你可以更專注在更有價值的事務上（例如：網路爬蟲自動抓取股價資料、自動化操作 Excel / Google Spread Sheets 試算表、外匯走勢圖表繪製、基金績效資料分析、股票財報資料分析與視覺化等）</li>
+<li><strong>即時通知</strong>：透過學習 Line 聊天機器人開發，不但可以建立個人即時投資預警系統還可以整合外匯、基金等投資管理。只要一隻手機，進場出場時間隨時掌握</li>
+<li><strong>客製化投資策略</strong>：你有獨門的選股模型或是飆股公式嗎？透過自己撰寫程式實作，從此不用在高度倚賴坊間付費選股系統（擁有釣竿自己釣魚）或看盤軟體，自己的投資理財人生，自己掌握</li>
