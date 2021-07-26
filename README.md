@@ -9,16 +9,16 @@ Coderbridge PyStock Analysis & Automatic LineBot
 
 ### 上市櫃公司財報資料分析
 透過爬取知名股票網站學習基本面網路爬蟲、資料分析及資料庫相關套件使用方式<br>
-(<a href='https://github.com/PrestonYU/1st-LineChatbot-Marathon/tree/master/EPS%20Report%20Scheduler'>專案細節</a>)
+(<a href='https://github.com/PrestonYU/Investment-LineChatbot-Project/tree/master/EPS%20Report%20Scheduler'>專案細節</a>)
 
 ### 股票選股聊天機器人專題
 透過基本面、價值型投資選股策略，當合適價格出現時透過Line聊天機器人即時推播通知<br>
-(<a href='https://github.com/PrestonYU/1st-LineChatbot-Marathon/tree/master/TW%20Stock%20Price%20Scheduler%20-%20with%20GSheet%20Automation'>專案細節</a>)
+(<a href='https://github.com/PrestonYU/Investment-LineChatbot-Project/tree/master/TW%20Stock%20Price%20Scheduler%20-%20with%20GSheet%20Automation'>專案細節</a>)
 
 ### 基金投資聊天機器人專題
 開發基金績效網路爬蟲和Line聊天機器人即時查詢和篩選，讓你在手機上可以即時了解基金動態
 
 ### 外幣管理聊天機器人
 開發匯率網路爬蟲讓你可以即時掌握外匯價格並透過Line聊天機器人記錄交易損益<br>
-(<a href='https://github.com/PrestonYU/1st-LineChatbot-Marathon/tree/master/Foreign%20Exchange%20Bot'>專案細節1</a>)<br>
-(<a href='https://github.com/PrestonYU/1st-LineChatbot-Marathon/tree/master/Foreign%20Exchange%20Bot%20-%20with%20GSheet%20Automation'>專案細節2</a>)
+(<a href='https://github.com/PrestonYU/Investment-LineChatbot-Project/tree/master/Foreign%20Exchange%20Bot'>專案細節1</a>)<br>
+(<a href='https://github.com/PrestonYU/Investment-LineChatbot-Project/tree/master/Foreign%20Exchange%20Bot%20-%20with%20GSheet%20Automation'>專案細節2</a>)
